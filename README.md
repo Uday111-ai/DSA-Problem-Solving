@@ -1,33 +1,97 @@
-﻿# 🧩 LeetCode 1 – Two Sum
+# DSA Problem Solving – Interview-Oriented Repository
 
-Difficulty: Easy
+This repository contains a structured collection of optimized solutions to Data Structures and Algorithms problems commonly asked in technical interviews. The project focuses on developing strong problem-solving skills by organizing solutions based on data structures and recurring interview patterns.
 
-Category: Arrays, Hashing
+---
 
-Platform: LeetCode
+## 📌 Key Highlights
+- Interview-oriented DSA solutions with clean and readable code
+- Problems categorized by data structures and algorithmic patterns
+- Emphasis on time and space complexity optimization
+- Detailed explanations for selected important problems
+- Regularly updated with new solutions
 
-# 🔗 Problem Link
+---
 
-https://leetcode.com/problems/two-sum/
+## 🛠️ Languages Used
+- Python
+- Java
+- C
 
-# 📝 Problem Statement
+---
 
-Given an array of integers **nums** and an integer **target**, return indices of the two numbers such that they add up to the given target.
-Each input has exactly one solution, and the same element cannot be used twice.
+## 📂 Repository Structure
 
-# 💡 Approach: Hash Map
+DSA-Problem-Solving/
 
-We traverse the array once while storing each element’s index in a hash map.
-For each element, we check if target - current_element already exists in the map.
-If it does, we return the stored index along with the current index.
+├── Arrays/
 
-# ⏱️ Complexity Analysis
+├── Strings/
 
-| Metric           | Value    |
-| ---------------- | -------- |
-| Time Complexity  | **O(n)** |
-| Space Complexity | **O(n)** |
+├── LinkedList/
 
-# 🧠 Key Interview Insight
+├── Stack_Queue/
 
-Using a hash map allows us to reduce the problem from **O(n²)** to **O(n)** by trading space for time — a common interview optimization technique.
+├── Trees/
+
+├── Graphs/
+
+├── Dynamic_Programming/
+
+├── Patterns/
+
+└── README.md
+
+
+---
+
+## 🧠 Topics Covered
+- Arrays & Strings
+- Linked Lists
+- Stack & Queue
+- Trees & Binary Trees
+- Graphs (BFS, DFS)
+- Dynamic Programming
+- Recursion & Backtracking
+
+---
+
+## 🔍 Problem Approach
+Each solution typically includes:
+- Clear problem statement reference
+- Optimized algorithmic approach
+- Time and space complexity analysis
+- Interview-relevant insights
+
+Important problems may also include separate `.md` files explaining the solution in detail.
+
+---
+
+## 🎯 Project Goal
+To build a strong foundation in Data Structures and Algorithms and master commonly used interview patterns for software engineering internships and entry-level roles.
+
+---
+
+## 🚀 How to Use This Repository
+- Navigate to the topic folder
+- Open the problem file to view the solution
+- Refer to explanation files (`.md`) for detailed understanding
+- Practice similar problems on LeetCode
+
+---
+
+## 📈 Future Enhancements
+- Add more LeetCode solutions across all topics
+- Include pattern-based problem indexes
+- Expand solutions in Java and C
+- Add test cases and edge case analysis
+
+---
+
+## 📬 Author
+**Uday Maddheshiya**  
+GitHub: https://github.com/Uday111-ai
+
+---
+
+⭐ If you find this repository helpful, consider giving it a star!
