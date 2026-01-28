@@ -16,18 +16,17 @@ A phrase is a palindrome if, after converting all uppercase letters into lowerca
 
 Given a string `s`, return `true` if it is a palindrome, or `false` otherwise.
 
-# 💡 Approach: Filter and Reverse
+# 💡 Approach: Two Pointer
 
-We traverse the string once, keeping only alphanumeric characters and converting them to lowercase.
-Then, we check if the new string is fundamentally the same as its reverse.
+We use two pointers starting from both ends of the string. Non-alphanumeric characters are skipped, and the remaining characters are compared in lowercase. If all corresponding characters match while moving inward, the string is a valid palindrome.
 
 # ⏱️ Complexity Analysis
 
 | Metric           | Value    |
 | ---------------- | -------- |
 | Time Complexity  | **O(n)** |
-| Space Complexity | **O(n)** |
+| Space Complexity | **O(1)** |
 
 # 🧠 Key Interview Insight
 
-While filtering creates a new string (O(n) space), a **Two Pointer** approach can also solve this in **O(1)** space by traversing from both ends and skipping non-alphanumeric characters.
+Although filtering and reversing the string is straightforward, it requires **O(n)** extra space. The **Two Pointer** approach is more optimal, as it compares characters in-place from both ends while skipping non-alphanumeric characters, achieving **O(1)** space complexity.
