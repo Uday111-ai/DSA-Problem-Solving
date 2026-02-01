@@ -91,6 +91,7 @@ To build a strong foundation in Data Structures and Algorithms and master common
 ## 📬 Author
 **Uday Maddheshiya**  
 GitHub: https://github.com/Uday111-ai
+Leetcode: https://leetcode.com/u/Uday_Gupta111/
 
 ---
 
